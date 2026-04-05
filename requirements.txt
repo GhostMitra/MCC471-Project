@@ -1,0 +1,34 @@
+# ============================================================
+#  MCC471 — Sustainability, Climate Actions & Environmental Sciences
+#  AI-Driven Crop Recommendation for Climate-Resilient Agriculture
+#  requirements.txt
+# ============================================================
+#
+#  Install:  pip install -r requirements.txt
+#  Python :  3.10 or higher recommended
+# ============================================================
+
+# ── Core Data & Numerics ────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+
+# ── Machine Learning ────────────────────────────────────────
+scikit-learn>=1.3.0
+
+# ── Visualisation ───────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Jupyter Environment ─────────────────────────────────────
+jupyterlab>=4.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0          # for interactive widgets in notebook
+
+# ── XAI — optional official libraries ───────────────────────
+#  The notebook runs WITHOUT these (custom implementations included).
+#  Install only if you want to compare with the official APIs.
+# shap>=0.44.0
+# lime>=0.2.0.1
+
+# ── Utilities ───────────────────────────────────────────────
+tqdm>=4.65.0               # progress bars (used in LIME batch loop)
